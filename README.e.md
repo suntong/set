@@ -14,4 +14,6 @@ Extremely light-weighted SET handlings.
 
 #### > {{cat "example_test.go" | color "go"}}
 
+To try it out, [copy from here](http://godoc.org/github.com/suntong/set#example-package).
+
 All patches welcome.
