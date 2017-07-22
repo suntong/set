@@ -15,7 +15,13 @@ func ExampleSet() {
 	fmt.Println(s1.Has("Apple"))
 	fmt.Println(s1.Has("Grape"))
 
+	s2 := set.NewSetFrom([]string{"Apple", "Orange"})
+	fmt.Println(s2.Has("Apple"))
+	fmt.Println(s2.Has("Grape"))
+
 	// Output:
+	// true
+	// false
 	// true
 	// false
 }

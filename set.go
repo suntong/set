@@ -39,3 +39,11 @@ func NewSet() set {
 	s := make(set)
 	return s
 }
+
+func NewSetFrom(i []string) set {
+	s := NewSet()
+	for _, v := range i {
+		s.Add(v)
+	}
+	return s
+}
