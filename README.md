@@ -26,7 +26,7 @@ import (
 
 // for standalone test, change package to `main` and the next func def to,
 // func main() {
-func ExampleSet() {
+func Example_output() {
 	{
 		// == case-sensitive SET
 		s1 := set.NewSet()
@@ -81,5 +81,7 @@ func ExampleSet() {
 // To show the full code in GoDoc
 var s set.Set = set.NewSet()
 ```
+
+To try it out, [copy from here](http://godoc.org/github.com/suntong/set#example-package).
 
 All patches welcome.
