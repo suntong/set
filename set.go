@@ -11,6 +11,7 @@ import (
 	"strings"
 )
 
+// Set defines the common functions for case sensitive and insensitive SETs.
 type Set interface {
 	Add(string)
 	Has(string) bool

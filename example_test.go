@@ -8,7 +8,7 @@ import (
 
 // for standalone test, change package to `main` and the next func def to,
 // func main() {
-func ExampleSet() {
+func Example() {
 	{
 		// == case-sensitive SET
 		s1 := set.NewSet()
